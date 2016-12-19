@@ -15,7 +15,7 @@ render(
         <Router  history={hashHistory}>
           <Route path="/" component={Login}>
                 <Route path="login" component={Login}/>
-                <Route path="register">
+                <Route path="register"/>
           </Route>
         </Router>
     </Provider>,
