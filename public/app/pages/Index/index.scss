@@ -1,0 +1,30 @@
+.container{
+  padding:0 1%;
+  .sign{
+   top:20px;
+    right: 30px;
+    position: absolute;
+    .ant-input-search-wrapper{
+      margin-right: 20px;
+      width: 170px;
+    }
+    .ant-btn-group{
+      vertical-align: top;
+    }
+  }
+  .title{
+    margin: 45px 0 50px 0;
+    .img{
+      border-radius: 100%;
+      border: 1px solid ;
+      height: 60px;
+      width: 60px;
+      float:left;
+    }
+    .name{
+      float:left;
+      line-height:60px;
+      padding-left:20px;
+    }
+  }
+}
