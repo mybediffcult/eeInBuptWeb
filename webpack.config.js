@@ -4,14 +4,14 @@ var autoprefixer = require('autoprefixer');
 
 var NODE_MODULE_PATH = path.join(__dirname, 'node_modules');
 var LOGIN_PATH=path.join(__dirname,'public/login/javascripts');
-var APP_PATH=path.join(__dirname,'public/app/javascripts');
+var APP_PATH=path.join(__dirname,'public/app');
 
 var isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
   devtool: isProduction ? false : 'inline-source-map',
   entry: {
-    //app: [path.resolve(APP_PATH, 'index.js')],
+    app: [path.resolve(APP_PATH, 'index.js')],
     login:[path.resolve(LOGIN_PATH,'index.js')]
   },
   output: {
