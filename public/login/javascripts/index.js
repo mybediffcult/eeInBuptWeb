@@ -12,8 +12,11 @@ const store = configureStore();
 
 render(
     <Provider store={store}>
-        <Router history={hashHistory}>
-                <Route path="/" component={Login}/>
+        <Router  history={hashHistory}>
+          <Route path="/" component={Login}>
+                <Route path="login" component={Login}/>
+                <Route path="register">
+          </Route>
         </Router>
     </Provider>,
     document.getElementById('root')
