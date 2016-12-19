@@ -1,0 +1,11 @@
+@mixin uniCalc($key, $value){
+  #{$key}: -webkit-calc(#{$value});
+  #{$key}:    -moz-calc(#{$value});
+  #{$key}:        calc(#{$value});
+}
+@mixin uniMethod($key, $value){
+  -webkit-#{$key}:#{$value};
+  -moz-#{$key}:#{$value};
+  #{$key}:#{$value};
+
+}

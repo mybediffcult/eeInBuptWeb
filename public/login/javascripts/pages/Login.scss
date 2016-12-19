@@ -1,0 +1,41 @@
+@import 'common';
+
+.loginContainer{
+  position:absolute;
+  text-align:center;
+  top:20%;
+  margin:0 auto;
+  width:450px;
+  @include uniCalc('margin-left',  '50% - 225px');
+
+  .logo{
+    margin-top:20px;
+    font-size:50px;
+  }
+
+  h2{
+    margin-top:20px;
+  }
+
+  .loginForm{
+    margin-top:20px;
+    background:white;
+    padding-top: 34px;
+    border: 1px solid #DFDBDB;
+    @include uniMethod('border-radius', '6px');
+    a{
+      font-size: 15px;
+      float:right;
+    }
+  }
+  .ant-col-offset-6{
+    margin-left: 20%;
+    .ant-btn-primary{
+      width:150px;
+    }
+  }
+}
+
+body{
+  background: #f4f4f4 !important;
+}
