@@ -6,6 +6,8 @@ import {message} from 'antd'
 import {browserHistory} from 'react-router'
 export  default{
     login(data, cb){
+      browserHistory.push('/eeInBuptWeb/dashboard');
+      message.success('登录成功！');
         let formData = new FormData();
         for (name in data) {
             formData.append(name, data[name]);
@@ -21,7 +23,7 @@ export  default{
                 switch (json.errCode) {
                     case 0:
                       message.success('登录成功！');
-                      location.href = `/eeInBuptWeb/dashboard`;
+                      browserHistory.push('/eeInBuptWeb/dashboard');
                         cb(json.data);
                         break;
                     case 1001000:

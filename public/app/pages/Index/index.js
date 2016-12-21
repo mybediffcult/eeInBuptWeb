@@ -8,6 +8,8 @@ import {Input,Button,Icon} from 'antd'
 const Search=Input.Search;
 
 import './index.scss'
+import Title from '../../components/Title/Title'
+import Channel from '../../components/Channel/index'
 
 class Index extends Component{
   constructor(props){
@@ -31,11 +33,15 @@ class Index extends Component{
             <Button onClick={()=>browserHistory.push('/')}>注册</Button>
           </Button.Group>
         </div>
-        <div className="title">
-          <div className="img"></div>
+        <div className="company">
+          <div className="img"/>
           <div className="name">
-          <h2>儿科医师培训平台</h2>
+          <h1>儿科医师培训平台</h1>
           </div>
+        </div>
+        <Title/>
+        <div className="channel-img">
+          <Channel/>
         </div>
       </div>
     )

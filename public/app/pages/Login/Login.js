@@ -4,7 +4,7 @@ import {browserHistory} from 'react-router'
 import {connect} from 'react-redux'
 
 import {Icon, Input, Button, Form, Row, Col, message} from 'antd'
-import {getLogin} from '../actions/fetchLoginInfo'
+import {getLogin} from '../../../login/javascripts/actions/fetchLoginInfo'
 
 class Login extends Component {
   constructor() {

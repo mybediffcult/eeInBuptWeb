@@ -12,14 +12,18 @@
       vertical-align: top;
     }
   }
-  .title{
-    margin: 45px 0 50px 0;
+  .company{
+    margin: 75px 0  15px 50px;
+    height: 60px;
     .img{
       border-radius: 100%;
       border: 1px solid ;
       height: 60px;
       width: 60px;
       float:left;
+      background-image:url('../../images/697.jpg');
+      background-repeat:no-repeat;
+      background-size:cover;
     }
     .name{
       float:left;
