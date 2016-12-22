@@ -1,9 +1,6 @@
 /**
  * Created by josephi on 2016/12/21.
  */
-/**
- * Created by josephi on 2016/12/19.
- */
 import React,{Component} from 'react';
 
 import {Menu,Icon} from 'antd';

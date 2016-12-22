@@ -1,17 +1,15 @@
-.channel{
+.figure{
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   height: 350px;
-  width: 12%;
+  line-height: 300px;
+  width: 46%;
   border: 1px solid;
   text-align: center;
   padding:1.9%;
-  margin: 35px 0 0 16%;
-  float: left;
-  div{
-    font-family: Microsoft YaHei;
-    font-size: 18px;
-    margin:15px 0;
-  }
+  margin: 35px 16% 0 10%;
+  float:left;
+  font-family: Microsoft YaHei;
+  font-size: 40px;
 }
