@@ -17,10 +17,9 @@ const store = configureStore()
 render(
   <Provider store={store}>
     <Router history={browserHistory}>
-      <Route path="/" component={Login}>
-      <Route path="login" component={Login}/>
-      <Route path="register"/>
-      </Route>
+      <Route path="/" component={Dashboard}/>
+      <Route path="/login" component={Login}/>
+      <Route path="/register"/>
       <Route path='/eeInBuptWeb/dashboard' component={Dashboard}/>
     </Router>
   </Provider>,

@@ -18,7 +18,7 @@ export default class Channel extends Component{
   render(){
     return(
       <div className="channel">
-        <div onClick={()=>{browserHistory.push()}} style={{fontSize:"25px",color:"purple"}}>快速通道</div>
+        <div onClick={()=>{browserHistory.push()}} style={{fontSize:"40px",color:"purple"}}>快速通道</div>
         <div onClick={()=>{browserHistory.push()}}>学员注册/登录</div>
         <div onClick={()=>{browserHistory.push()}}>学员中心</div>
         <div onClick={()=>{browserHistory.push()}}>课程培训</div>

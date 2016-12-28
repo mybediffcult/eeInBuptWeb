@@ -66,11 +66,12 @@ class Index extends Component {
         </div>
         <div><ShowList trendsList={trendsList} newClassList={newClassList} hotClassList={hotClassList}/></div>
         <div className="footer">
-          <div className="friendUrl">友情链接:<a href="https://bbs.byr.cn/#!board/AimGraduate">北邮人论坛考研版</a><em>|</em>
-            <a>北邮研究生院</a><em>|</em>
-            <a>北邮研招网</a><em>|</em>
-            <a>中国研招网</a><em>|</em>
-            <a>快递查询</a>
+          <div className="friendUrl">友情链接:
+            {/*<a href="https://bbs.byr.cn">北邮人论坛考研版</a><em>|</em>*/}
+            <a href="http://www.bjmu.edu.cn/">北京大学医学部</a><em>|</em>
+            <a href="http://www.cctf.org.cn/">中国儿童少年基金会</a><em>|</em>
+            <a href="http://www.bddyyy.com.cn/">北京大学第一医院</a><em>|</em>
+            <a href="http://bdfck.cnkme.com/">北京大学第一医院妇产科</a>
           </div>
           <div className="phone" onClick={() => browserHistory.push('/login')}>
             <Icon type="phone" onClick={() => browserHistory.push('/login')}/>咨询热线：

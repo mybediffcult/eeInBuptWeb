@@ -24,19 +24,19 @@ export default class ShowList extends Component {
     return (
       <div className="showList">
         <div className="newTrends">
-          <h2>最新动态</h2>
+          <h3>最新动态</h3>
           <div className="blank"/>
           <ul>{trendsList}</ul>
           <div className="blank"/>
         </div>
         <div className="newClass" style={{margin: "0 2%"}}>
-          <h2>最新课程</h2>
+          <h3>最新课程</h3>
           <div className="blank"/>
           <ul>{newClassList}</ul>
           <div className="blank"/>
         </div>
         <div className="hotClass">
-          <h2>最热课程</h2>
+          <h3>最热课程</h3>
           <div className="blank"/>
           <ul>{hotClassList}</ul>
           <div className="blank"/>
