@@ -1,0 +1,83 @@
+.showListForm{
+  height: 280px;
+  font-size:16px;
+  font-family: Microsoft YaHei;
+  width: 100%;
+  overflow-x:hidden;
+    .listTitle{
+      display: block;
+      color: #02b2b5;
+      text-align: left;
+      height: 45px;
+      line-height: 45px;
+      width: 100%;
+      .titleLeft{
+       float: left;
+        width: 85%;
+      }
+      .titleRight{
+        float:right;
+        width: 15%;
+        height: 30px;
+        line-height: 30px;
+        font-size:30px;
+        word-break: keep-all;
+      }
+    }
+    .imgContent {
+      font-size: 14px;
+      color: #666666;
+      width: 200%;
+      height: 194px;
+      text-align: center;
+      margin: 10px 0;
+      float: left;
+      overflow: hidden;
+      .imgbody {
+        display: inline;
+        margin-right: 30px;
+        float:left;
+        position: relative;
+        height: 194px;
+        width: 160px;
+        -webkit-animation: imgbody 100s linear infinite;
+        -moz-animation: imgbody 100s linear infinite;
+        -ms-animation: imgbody 100s linear infinite;
+        -o-animation: imgbody 100s linear infinite;
+        animation: imgbody 100s linear infinite;
+        @-webkit-keyframes imgbody {
+          0% { left: 0; }
+          100% { left:-100%; }
+        }
+        @-moz-keyframes imgbody {
+          0% { left: 0; }
+          100% { left: -100%; }
+        }
+        @-ms-keyframes imgbody {
+          0% { left: 0; }
+          100% { left: -100%; }
+        }
+        @-o-keyframes imgbody {
+          0% { left: 0; }
+          100% { left: -100%; }
+        }
+        @keyframes imgbody {
+          0%{left:0}
+          100%{left: -100%;}
+        }
+        .doctorImg {
+          cursor: pointer;
+          text-align: center;
+          img {
+            width: 160px;
+            height: 160px;
+          }
+        }
+         .doctorName{
+           font-size: 14px;
+           height: 14px;
+           width: 160px;
+          }
+        }
+      }
+    }

@@ -1,0 +1,242 @@
+.container{
+  width:100%;
+  height: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+  font-family: 微软雅黑;
+  color: #000000;
+  .homeTitle{
+    background: #02b2b5;
+    color: white;
+    height: 120px;
+    .title-name{
+      font-family: 黑体,SimHei;
+      display: block;
+      position: absolute;
+      left: 380px;
+      font-size: 36px;
+      z-index: 32;
+      text-align: left;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+    .title-left{
+      float: left;
+      line-height: 120px;
+    }
+    .title-right{
+      float: right;
+      font-family: 微软雅黑;
+      font-size:20px;
+      cursor:pointer;
+      overflow: hidden;
+      .login{
+       position: absolute;
+        top:0;
+        right: 370px;
+      }
+      .time{
+        position: absolute;
+        top:30px;
+        right: 370px;
+        margin-top: 20px;
+      }
+    }
+  }
+  .navShow {
+    text-align: center;
+    font-size: 17px;
+    .navCenter {
+      margin: 30px auto 20px;
+      height: 40px;
+      width: 930px;
+      line-height: 40px;
+      text-align: center;
+      .navNormal{
+        width:100px;
+        color: black;
+        float: left;
+        margin:0 5px;
+      }
+      .navNormal:hover{
+        background:#02b2b5;
+        color: white;
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+      }
+      .navChoose{
+        background:#02b2b5;
+        color: white;
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+      }
+    }
+  }
+  .numImg{
+      width: 960px;
+      height: 380px;
+      cursor: default;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      display: block;
+      outline: none;
+      margin: 0px auto;
+      position: relative;
+      z-index: 1;
+      background-image: url(http://301101.s61i.faiusr.com/2/AD0IrbASEAIYACD93u2-BSiTh5D0BzDABzj8Ag.jpg);
+  }
+  .homeContent {
+    margin: 5px auto;
+    width: 960px;
+    height: 883px;
+    .conLeft {
+      float:left;
+      margin-right:5px;
+      width: 210px;
+      height: 883px;
+      .searchBar{
+        .searchTitle{
+          width: 210px;
+          height: 45px;
+          line-height: 45px;
+          background: #02b2b5;
+          color:white;
+          text-align: left;
+          padding-left: 15px;
+          border-radius: 5px;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          margin-bottom: 7px;
+        }
+        .ant-input{
+          width: 124px;
+          height: 23px;
+          float: left;
+        }
+        .ant-btn{
+          width: 70px;
+          height: 23px;
+          padding: 4px 5px;
+        }
+      }
+      .formBanner{
+        margin: 20px 0;
+        text-align: left;
+        .formTitle{
+          width: 210px;
+          height: 45px;
+          line-height: 45px;
+          background: #02b2b5;
+          color:white;
+          padding-left: 15px;
+          border-radius: 5px;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          margin-bottom: 7px;
+        }
+        a{
+          margin-left: 15px;
+          color: #666666;
+        }
+        a:hover{
+          color: #02b2b5;
+        }
+        span{
+          font-size: 15px;
+        }
+        .serOnline{
+          .qqImg{
+            width: 21px;
+            height: 21px;
+            display: inline-block;
+            margin-right: 8px;
+            background: url(/public/app/images/pa45.gif) no-repeat;
+          }
+        }
+        }
+      .serOnline-time{
+        text-align: left;
+        padding-left: 15px;
+        .timeImg{
+          width: 27px;
+          height: 27px;
+          display: inline-block;
+          background: url(/public/app/images/serviceOnlineTime1.png) no-repeat;
+        }
+      }
+      }
+    .conRight{
+      float: left;
+      width: 740px;
+      padding-left: 10px;
+      overflow: hidden;
+      height: 883px;
+      .news{
+        width: 740px;
+        height: 303px;
+      }
+      .leftList,.rightList{
+        width: 49%;
+        float: left;
+        margin-left:1%;
+        overflow: hidden;
+      }
+      .picList{
+        height: 260px;
+      }
+    }
+    .dash{
+      margin: 0 auto;
+      width: 95%;
+      border-style: dashed;
+      border-top:none;
+      border-left: none;
+      border-right:none;
+      border-width: 1px;
+      border-color: #e0e0e0;
+      float: left;
+    }
+    .dash-dash{
+      margin: 0 auto;
+      width: 100%;
+      border-style: dashed;
+      border-top:none;
+      border-left: none;
+      border-right:none;
+      border-bottom: 1px dotted #b3b3b3;
+      border-color: #e0e0e0;
+      float: left;
+    }
+  }
+  .homeFooter{
+    font-size: 14px;
+    background: #333333;
+    color: #C9C9C9;
+    text-align: center;
+    width: 100%;
+    height: 86px;
+      padding: 10px 0;
+      .line1,.line2 {
+        height: 22px;
+        width: 325px;
+        margin:0 auto;
+        span {
+          float: left;
+        }
+      }
+    .line2{
+      width: 103px;
+    }
+      .footerSpace {
+        width: 1px;
+        margin: 3px 12px;
+        background: #C9C9C9;
+        height: 15px;
+      }
+  }
+}

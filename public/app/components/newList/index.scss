@@ -1,0 +1,57 @@
+.showListForm{
+  height: 303px;
+  font-size:16px;
+  font-family: Microsoft YaHei;
+  width: 100%;
+  overflow: hidden;
+
+    .listTitle{
+      display: block;
+      color: #02b2b5;
+      text-align: left;
+      height: 45px;
+      line-height: 45px;
+      width: 100%;
+      .titleLeft{
+       float: left;
+        width: 85%;
+      }
+      .titleRight{
+        float:right;
+        text-align: right;
+        padding-right:3%;
+        width: 15%;
+        height: 30px;
+        line-height: 30px;
+        font-size:30px;
+        word-break: keep-all;
+      }
+    }
+    ul{
+      font-size: 14px;
+      color: #666666;
+      li{
+        height: 46px;
+        line-height: 46px;
+        cursor: pointer;
+        white-space:nowrap;
+        padding: 3px 5px;
+        text-align: left;
+        .content{
+          margin:0 auto;
+          width: 266px;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+          float: left;
+        }
+      .time{
+          width: 76px;
+         float: right;
+        }
+      }
+      li:hover{
+        color: #02b2b5;
+      }
+    }
+}

@@ -11,13 +11,14 @@ import configureStore from './store/configureStore'
 import './stylesheets/index.scss'
 
 import Dashboard from './pages/Index/index'
+import Homepage from './pages/FirstPage/index'
 import Login  from './pages/Login/Login';
 
 const store = configureStore()
 render(
   <Provider store={store}>
     <Router history={browserHistory}>
-      <Route path="/" component={Dashboard}/>
+      <Route path="/" component={Homepage}/>
       <Route path="/login" component={Login}/>
       <Route path="/register"/>
       <Route path='/eeInBuptWeb/dashboard' component={Dashboard}/>
