@@ -46,7 +46,12 @@ class HomePage extends Component{
             <div className="navCenter">
                 <div className={navNum==0?"navChoose  navNormal":" navNormal"} onClick={()=>{this.setState({navNum:0})}}>首页</div>
                 <div className={navNum==1?"navChoose  navNormal":" navNormal"} onClick={()=>{this.setState({navNum:1})}}>学籍系统</div>
-                <div className={navNum==2?"navChoose  navNormal":" navNormal"} onClick={()=>{this.setState({navNum:2})}}>学员中心</div>
+                <div className={navNum==2?"navChoose  navNormal":" navNormal"} onClick={()=>{this.setState({navNum:2})}}>学员中心
+                    <ul><li>在线学习</li>
+                    <li>班主任管理</li>
+                    <li>BBS讨论区</li>
+                </ul>
+                </div>
                 <div className={navNum==3?"navChoose  navNormal":" navNormal"} onClick={()=>{this.setState({navNum:3})}}>课程培训</div>
                 <div className={navNum==4?"navChoose  navNormal":" navNormal"} onClick={()=>{this.setState({navNum:4})}}>关于我们</div>
                 <div className={navNum==5?"navChoose  navNormal":" navNormal"} onClick={()=>{this.setState({navNum:5})}}>下载专区</div>
@@ -150,7 +155,7 @@ class HomePage extends Component{
                 <div className="line2">
                     <span>©2017-版权所有</span>
                 </div>
-                
+
                 </div>
             </div>
         )
