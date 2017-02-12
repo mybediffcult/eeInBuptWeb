@@ -35,9 +35,9 @@ class HomePage extends Component{
                 </div>
                 <div className="title-right">
                 <div className="login">
-                    <span>登陆</span>
+                    <span><a href="../../../../login.jsp">登陆</a></span>
                     /
-                    <span>注册</span>
+                    <span><a href="../../../../reg.jsp">注册</a></span>
                 </div>
                     <div className="time">{moment().format("MM/DD/YYYY")}&nbsp;&nbsp; &nbsp; {moment().format("HH:mm")}</div>
                 </div>
@@ -45,9 +45,9 @@ class HomePage extends Component{
             <div className="navShow">
             <div className="navCenter">
                 <div className={navNum==0?"navChoose  navNormal":" navNormal"} onClick={()=>{this.setState({navNum:0})}}>首页</div>
-                <div className={navNum==1?"navChoose  navNormal":" navNormal"} onClick={()=>{location.href("/WebRoot/login.jsp?indexParam=0");this.setState({navNum:1})}}>学籍系统</div>
-                <div className={navNum==2?"navChoose  navNormal":" navNormal"} onClick={()=>{location.href("/WebRoot/login.jsp?indexParam=1");this.setState({navNum:2})}}>学员中心
-                    <ul><li><a href="/WebRoot/login.jsp?indexParam=10">在线学习</a></li>
+                <div className={navNum==1?"navChoose  navNormal":" navNormal"} onClick={()=>{location.href("../../../../login.jsp?indexParam=0");this.setState({navNum:1})}}>学籍系统</div>
+                <div className={navNum==2?"navChoose  navNormal":" navNormal"} onClick={()=>{location.href("../../../../login.jsp?indexParam=1");this.setState({navNum:2})}}>学员中心
+                    <ul><li><a href="../../../../login.jsp?indexParam=10">在线学习</a></li>
                     <li>班主任管理</li>
                     <li>BBS讨论区</li>
                 </ul>

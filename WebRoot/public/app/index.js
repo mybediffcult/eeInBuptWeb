@@ -19,9 +19,10 @@ render(
   <Provider store={store}>
     <Router history={browserHistory}>
       <Route path="/" component={Homepage}/>
-      <Route path="/login" component={Login}/>
+        {/*  <Route path="/login" component={Login}/>
       <Route path="/register"/>
       <Route path='/eeInBuptWeb/dashboard' component={Dashboard}/>
+      */}
     </Router>
   </Provider>,
   document.getElementById('root')

@@ -134,7 +134,7 @@
       margin: 0px auto;
       position: relative;
       z-index: 1;
-      background-image: url(http://301101.s61i.faiusr.com/2/AD0IrbASEAIYACD93u2-BSiTh5D0BzDABzj8Ag.jpg);
+      background-image: url("http://301101.s61i.faiusr.com/2/AD0IrbASEAIYACD93u2-BSiTh5D0BzDABzj8Ag.jpg");
   }
   .homeContent {
     margin: 5px auto;
@@ -201,7 +201,7 @@
             height: 21px;
             display: inline-block;
             margin-right: 8px;
-            background: url(/public/app/images/pa45.gif) no-repeat;
+            background: url("../../images/pa45.gif") no-repeat;
           }
         }
         }
@@ -212,7 +212,7 @@
           width: 27px;
           height: 27px;
           display: inline-block;
-          background: url(/public/app/images/serviceOnlineTime1.png) no-repeat;
+          background: url("../../images/serviceOnlineTime1.png") no-repeat;
         }
       }
       }
