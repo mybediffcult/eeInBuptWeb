@@ -51,10 +51,17 @@ public class AddUsersServlert extends HttpServlet {
 		users.setUage(Integer.parseInt(age));
 		UsersBiz biz=new UsersBiz();
 		boolean flag=biz.addUsers(users);
+//		if(flag){
+//			response.sendRedirect("index.jsp");
+//		}else{
+//			response.sendRedirect("index.jsp?msg=11");
+//		}
 		if(flag){
-			response.sendRedirect("index.jsp");
+			//注册成功去登陆页面，并显示注册成功！msg=0
+			response.sendRedirect("login.jsp?msg=0");
 		}else{
-			response.sendRedirect("index.jsp?msg=11");
+			//注册失败去注册页面，并提示注册失败！ msg = 1
+			response.sendRedirect("reg.jsp?msg=1");
 		}
 	}	
 }

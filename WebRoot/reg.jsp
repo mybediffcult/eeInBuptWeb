@@ -68,5 +68,8 @@
 			alert("请先登录！");
 		</script>
 	</c:if>
+	<c:if test="${param.msg==1 }">
+	    <script>alert("注册失败！请重新尝试")</script>
+	</c:if>
 </body>
 </html>

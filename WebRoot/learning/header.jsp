@@ -1,6 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     	<%@ include file="/houtai/includes.jsp"%>
+ <% 	String path = request.getContextPath();
+        String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+ %>  
+
 <link href="../css/header.css" type="text/css" rel="stylesheet" />
 
 <div class="total_header">
@@ -26,7 +30,7 @@
 		 <a href="UsersServlet" class="name">[&nbsp;${users.uname}&nbsp;]</a>&nbsp;
 		 <a href="OneUsersServlet" class="oth">修改个人资料</a>&nbsp;&nbsp;
 		 <a href="#come?comsg=1" class="oth">签到</a>&nbsp;&nbsp;
-		 <a href="../index.jsp" class="oth">退出</a>
+		 <a href="../"+<%=basePath %> class="oth">退出</a>
 		</div>
 		
 </div>
