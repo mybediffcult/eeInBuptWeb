@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="eeinbuptweb"
+  id="myeclipse.1486647040964"
+  context-root="/eeinbuptweb"
+  j2ee-spec="6.0"
+  archive="eeinbuptweb.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
