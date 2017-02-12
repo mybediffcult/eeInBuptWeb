@@ -49,7 +49,7 @@ class HomePage extends Component{
                 <div className={navNum==2?"navChoose  navNormal":" navNormal"} onClick={()=>{location.href="../../../../login.jsp?indexParam=1";this.setState({navNum:2})}}>学员中心
                     <ul><li>在线学习</li>
                     <li><a href="../../../../login.jsp?indexParam=10">班主任管理</a></li>
-                    <li>BBS讨论区</li>
+                        {/* <li>BBS讨论区</li>*/}
                 </ul>
                 </div>
                 <div className={navNum==3?"navChoose  navNormal":" navNormal"} onClick={()=>{this.setState({navNum:3})}}>课程培训</div>
