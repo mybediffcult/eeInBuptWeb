@@ -45,10 +45,10 @@ class HomePage extends Component{
             <div className="navShow">
             <div className="navCenter">
                 <div className={navNum==0?"navChoose  navNormal":" navNormal"} onClick={()=>{this.setState({navNum:0})}}>首页</div>
-                <div className={navNum==1?"navChoose  navNormal":" navNormal"} onClick={()=>{location.href("../../../../login.jsp?indexParam=0");this.setState({navNum:1})}}>学籍系统</div>
-                <div className={navNum==2?"navChoose  navNormal":" navNormal"} onClick={()=>{location.href("../../../../login.jsp?indexParam=1");this.setState({navNum:2})}}>学员中心
-                    <ul><li><a href="../../../../login.jsp?indexParam=10">在线学习</a></li>
-                    <li>班主任管理</li>
+                <div className={navNum==1?"navChoose  navNormal":" navNormal"} onClick={()=>{location.href="../../../../login.jsp?indexParam=0";this.setState({navNum:1})}}>学籍系统</div>
+                <div className={navNum==2?"navChoose  navNormal":" navNormal"} onClick={()=>{location.href="../../../../login.jsp?indexParam=1";this.setState({navNum:2})}}>学员中心
+                    <ul><li>在线学习</li>
+                    <li><a href="../../../../login.jsp?indexParam=10">班主任管理</a></li>
                     <li>BBS讨论区</li>
                 </ul>
                 </div>
