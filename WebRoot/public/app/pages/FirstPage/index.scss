@@ -16,8 +16,8 @@
       font-family: 黑体,SimHei;
       display: block;
       position: absolute;
-      left: 380px;
-      font-size: 36px;
+      left: 10%;
+      font-size: 45px;
       z-index: 32;
       text-align: left;
       vertical-align: middle;
@@ -27,25 +27,18 @@
       float: left;
       line-height: 120px;
     }
-    .title-right{
+    .title-right {
       float: right;
       font-family: 微软雅黑;
-      font-size:20px;
-      cursor:pointer;
+      font-size: 20px;
+      cursor: pointer;
       overflow: hidden;
-      .login{
-       position: absolute;
-        top:0;
-        right: 370px;
-        a{
+      margin: 10px 10%;
+      min-width: 200px;
+      .login {
+        a {
           color: white;
         }
-      }
-      .time{
-        position: absolute;
-        top:30px;
-        right: 370px;
-        margin-top: 20px;
       }
     }
   }

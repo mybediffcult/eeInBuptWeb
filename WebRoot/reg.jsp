@@ -27,22 +27,22 @@
 									onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" /></td>
 							</tr>
 							<tr>
-								<td><input name="upass" type="password" class="TXT"
+								<td>密码：&nbsp;<input name="upass" type="password" class="TXT"
 									placeholder="请输入密码" /></td>
 							</tr>
 							<tr>
-								<td><input name="upass1" type="password" class="TXT"
+								<td>确认密码：&nbsp;<input name="upass1" type="password" class="TXT"
 									placeholder="确认密码" /></td>
 							</tr>
 							<tr>
-								<td><input name="uname" type="text" class="TXT"
+								<td>姓名：&nbsp;<input name="uname" type="text" class="TXT"
 									placeholder="输入姓名" /></td>
 							</tr>
-							<tr>
-								<td><input name="uage" type="text" class="TXT"
-									onkeyup="value=value.replace(/[^\d]/g,'') " placeholder="输入年龄"
-									onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" /></td>
-							</tr>
+							<%--<tr>--%>
+								<%--<td><input name="uage" type="text" class="TXT"--%>
+									<%--onkeyup="value=value.replace(/[^\d]/g,'') " placeholder="输入年龄"--%>
+									<%--onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" /></td>--%>
+							<%--</tr>--%>
 							<tr>
 								<td><input name="usex" type="radio" value="男" checked="男" />男<input
 									name="usex" type="radio" value="女" />女</td>

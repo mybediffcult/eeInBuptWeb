@@ -4,7 +4,8 @@
   "description": "none",
   "scripts": {
     "start": "set NODE_ENV=development&webpack-dev-server",
-    "dist": "set NODE_ENV=production&webpack -p"
+    "dist": "set NODE_ENV=production&webpack -p",
+    "mac-dist":"NODE_ENV=production webpack"
   },
   "repository": {
     "type": "git"

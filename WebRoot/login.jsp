@@ -21,16 +21,15 @@ request.setAttribute("indexParam", indexParam);
 			<div class="login_DL">
 				<div class="login_DC">
 					<form action="login" method="post" name="f1">
-						<h2 class="h2">登录</h2>
-						<h2 class="h2">Log on</h2>
+						<h1 class="h2">登录</h1>
 						<table class="logintable">
 							<tr>
-								<td><input type="text" name="uid" class="TXT"
+								<td>用户名：&nbsp;<input type="text" name="uid" class="TXT"
 									placeholder="请输入用户名" onkeyup="value=value.replace(/[\W]/g,'') "
 									onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" /></td>
 							</tr>
 							<tr>
-								<td><input type="password" name="upass" class="TXT"
+								<td>密码：&nbsp;<input type="password" name="upass" class="TXT"
 									placeholder="请输入密码" /></td>
 							</tr>
 							<tr>
