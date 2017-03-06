@@ -62,5 +62,13 @@ request.setAttribute("indexParam", indexParam);
 			alert("请先登录！");
 		</script>
 	</c:if>
+	<c:if test="${ param.msg == 0}">
+	     <script>
+	        alert("注册成功！请登陆");
+	     </script>
+	</c:if>
+	<c:if test="${param.msg == 1 }">
+	  <script>alert("用户名或密码错误！")</script>
+	</c:if>
 </body>
 </html>

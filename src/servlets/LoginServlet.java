@@ -221,7 +221,7 @@ protected void service(HttpServletRequest request, HttpServletResponse response)
 		}   //1
 	else{
 		//登陆失败
-		response.sendRedirect("index.jsp?msg=10");
+		response.sendRedirect("login.jsp?msg=1");
 	}
   }//使用登陆按钮进来的登陆
 	else{
@@ -263,7 +263,7 @@ protected void service(HttpServletRequest request, HttpServletResponse response)
 			}   //1
 			else{
 				//登陆失败
-				response.sendRedirect("index.jsp?msg=10");
+				response.sendRedirect("login.jsp?msg=1");
 			}
 			
 		}else if(indexParam.equals("1")){
@@ -311,7 +311,7 @@ protected void service(HttpServletRequest request, HttpServletResponse response)
 			}   //1
 			else{
 				//登陆失败
-				response.sendRedirect("index.jsp?msg=10");
+				response.sendRedirect("login.jsp?msg=1");
 			}
 		}else if(indexParam.equals("10")){
 			//该链接来自于班主任管理
@@ -333,7 +333,7 @@ protected void service(HttpServletRequest request, HttpServletResponse response)
 			}   //1
 			else{
 				//登陆失败
-				response.sendRedirect("index.jsp?msg=10");
+				response.sendRedirect("login.jsp?msg=1");
 			}
 		}else{
 			//其他链接
