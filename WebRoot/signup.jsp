@@ -222,7 +222,7 @@ function validateCard(){
 		<div class="logosize">儿童医师培训平台</div>
 		<div class="bgct">
 			<div class="bgtop">
-				<a class="bgtopsize"><font color='black'>OPEN AND CODE</font></a>
+				<%--<a class="bgtopsize"><font color='black'>OPEN AND CODE</font></a>--%>
 			</div>
   <!-- 现在的报名前端 -->
   <div class="login_DL">
@@ -253,30 +253,31 @@ function validateCard(){
 									</td>
 									<!-- 上传头像 end -->
 							<tr>
-								<td><input class="TXT" type="text" name="username" id="input_style" onfocus="cls()" onchange="validateCode()" value="<%=users.getUname() %>" /></td>
+								<td><span>用户名：</span><input class="TXT" type="text" name="username" id="input_style" onfocus="cls()" onchange="validateCode()" value="<%=users.getUname() %>" /></td>
 							</tr>
 							<tr>
-								<td><input class="TXT" type="text" name="uage" id="input_style" onfocus="cls()" onchange="validateCode()" value="<%=users.getUage()%>" /></td>
+								<td><span>年龄：</span><input class="TXT" type="text" name="uage" id="input_style" onfocus="cls()" onchange="validateCode()" value="<%=users.getUage()%>" /></td>
 							</tr>
 							<tr>
-								<td><input class="TXT" type="text" name="idCard" id="input_style" onfocus="cls()" onchange="validateCard()" value="输入身份证号" /></td>
+								<td><span>身份证号：</span><input class="TXT" type="text" name="idCard" id="input_style" onfocus="cls()" onchange="validateCard()" value="输入身份证号" /></td>
 							</tr>
 							<tr>
-								<td><input class="TXT" type="text" name="unit" id="input_style" onfocus="cls()"  value="输入单位名" /></td>
+								<td><span>单位名：</span><input class="TXT" type="text" name="unit" id="input_style" onfocus="cls()"  value="输入单位名" /></td>
 							</tr>
 							<tr>
-								<td><input class="TXT" type="text" name="phone" id="input_style" onfocus="cls()" onchange="validateTel()" value="输入手机号" /></td>
+								<td><span>手机号：</span><input class="TXT" type="text" name="phone" id="input_style" onfocus="cls()" onchange="validateTel()" value="输入手机号" /></td>
 							</tr>
 							<tr>
-								<td><input class="TXT" type="text" name="unitphone" id="input_style" onfocus="cls()" onchange="validaUnitPhone()" value="输入单位电话" /></td>
+								<td><span>单位电话：</span><input class="TXT" type="text" name="unitphone" id="input_style" onfocus="cls()" onchange="validaUnitPhone()" value="输入单位电话" /></td>
 							</tr>
 							<tr>
-								<td><input class="TXT" type="text" name="mail" id="input_style" onfocus="cls()" onchange="validateEmail()" value="输入邮箱" /></td>
+								<td><span>邮箱：</span><input class="TXT" type="text" name="mail" id="input_style" onfocus="cls()" onchange="validateEmail()" value="输入邮箱" /></td>
 							</tr>
 							<tr>
-								<td><input class="TXT" type="text" name="microMsg" id="input_style" onfocus="cls()"  value="输入微信号" /></td>
+								<td><span>微信号：</span><input class="TXT" type="text" name="microMsg" id="input_style" onfocus="cls()"  value="输入微信号" /></td>
 							</tr>
 							<tr>
+								<div>
 							<%
 							//flag true 男; flase 女
 							  String sex = users.getUsex(); 
@@ -292,11 +293,13 @@ function validateCard(){
 									<td><input name="usex" type="radio" value="男"  />男<input
 									name="usex" type="radio" value="女" checked="女"/>女</td>
 									<%} %>
+									</div>
 							</tr>
 							<br>
 							<tr>
 								<td><input type="submit" name="sub1" value="提交" id="sub1"
-									class="submit"  /><input type="reset"
+									class="submit"  />
+									<input type="reset"
 									name="re" class="submit" /></td>
 							</tr>
 							<tr>
