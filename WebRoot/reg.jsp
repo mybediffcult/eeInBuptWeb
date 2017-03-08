@@ -22,7 +22,7 @@
 						<table class="logintable">
 							<tr>
 								<td><span>用户名：</span><input name="uid" type="text" class="TXT"
-									onkeyup="value=value.replace(/[\W]/g,'') " placeholder="请输入用书名"
+									onkeyup="value=value.replace(/[\W]/g,'') " placeholder="请输入用户名"
 									onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" /></td>
 							</tr>
 							<tr>
@@ -37,11 +37,11 @@
 								<td><span>姓名：</span><input name="uname" type="text" class="TXT"
 									placeholder="输入姓名" /></td>
 							</tr>
-							<%--<tr>--%>
-								<%--<td><input name="uage" type="text" class="TXT"--%>
-									<%--onkeyup="value=value.replace(/[^\d]/g,'') " placeholder="输入年龄"--%>
-									<%--onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" /></td>--%>
-							<%--</tr>--%>
+							<tr>
+								<td><span>年龄：</span><input name="uage" type="text" class="TXT"
+									onkeyup="value=value.replace(/[^\d]/g,'') " placeholder="输入年龄"
+									onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" /></td>
+							</tr>
 							<tr>
 								<td><input name="usex" type="radio" value="男" checked="男" />男<input
 									name="usex" type="radio" value="女" />女</td>
