@@ -3,18 +3,17 @@
 
 body{ margin:0px auto;
       padding:0px;
-	  width:1259px;
-	  min-height:400px;
+	  width: 100%;
+	  height:100%;
 }
 
 .hd{ margin:0px;
      padding:0px;
-	 width:1259px;
+	 width:100%;
 	 min-height:100px;
 }
 .hd_hd{ margin:0px;
         padding:0px;
-		width:1259px;
 		height:60px;
 	    background-color:#000;
 }
@@ -57,10 +56,8 @@ body{ margin:0px auto;
 }
 .md{ margin:0px;
      padding:0px;
-	 width:1259px;
-	 min-height:200px;
+	min-height: 100vh;
 	 background-color:#CCC;
-	 border-bottom-color:
 }
 .md_md{ margin:0px auto;
       padding:0px;
