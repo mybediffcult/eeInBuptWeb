@@ -38,6 +38,7 @@ body {
 	min-width:200px;
 	font-size:40px;
 	color: #FFF;
+    line-height: 100px;
 }
 
 .bgct {
@@ -93,7 +94,7 @@ body {
 }
 
 .bgctlttop {
-	widows: 652px;
+	width: 652px;
 	height: 190px;
 	background-color: #575b5c;
 	opacity:0.6;
@@ -194,13 +195,11 @@ body {
 	text-align: center;
 	margin: 0 auto;
 }
-.logintable>span{
+.logintable span{
 	float:left;
 	width:20%;
-	line-height:35px;
 	line-height: 45px;
 	margin: 10px 0;
-
 }
 .nowite {
 	text-decoration: none;
@@ -228,7 +227,12 @@ body {
 .botom{
 	text-align: center;
 	color: #FFF;
-	background:#198496
+	background:#198496;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 50px;
 }
 	.sec1 {
 	BORDER-RIGHT: gray 1px solid;
