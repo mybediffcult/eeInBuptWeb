@@ -43,13 +43,15 @@
 									onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" /></td>
 							</tr>
 							<tr>
-								<td><input name="usex" type="radio" value="男" checked="男" />男<input
+								<div style="font-size: 50px;text-align: center"><td><input name="usex" type="radio" value="男" checked="男" />男<input
 									name="usex" type="radio" value="女" />女</td>
+									</div>
 							</tr>
 							<tr>
-								<td><input type="submit" name="sub1" value="注册" id="sub1"
+								<td><div style="text-align:center;"><input type="submit" name="sub1" value="注册" id="sub1"
 									class="submit" onClick="return saveIt()" /><input type="reset"
-									name="re" class="submit" /></td>
+									name="re" class="submit" />
+								</div></td>
 							</tr>
 							<tr>
 								<td><br /></td>

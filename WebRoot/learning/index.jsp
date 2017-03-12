@@ -49,6 +49,5 @@
           </div>
      </div>
 </div>
-<div class="ft"></div>
 </body>
 </html>

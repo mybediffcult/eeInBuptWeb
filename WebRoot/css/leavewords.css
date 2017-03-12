@@ -1,20 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 .left_right_divs{
-	width:950px;
+	/*width:950px;*/
 	min-height:700px;
 	padding-left:10px;
 	padding-top:9px;
 	background-color:#ededed;
 }
 .left_div{
-	width:652px;
+	width:75%;
 	min-height:500px;
 	float:left;
 /*	background-color:#CF0;*/
 }
 .right_div{
-	width:266px;
+	width:20%;
 	height:223px;
 	margin-left:28px;
 	float:left;

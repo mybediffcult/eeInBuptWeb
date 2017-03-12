@@ -277,7 +277,7 @@ function validateCard(){
 								<td><span>微信号：</span><input class="TXT" type="text" name="microMsg" id="input_style" onfocus="cls()"  value="输入微信号" /></td>
 							</tr>
 							<tr>
-								<div>
+								<div style="font-size: 50px;text-align: center">
 							<%
 							//flag true 男; flase 女
 							  String sex = users.getUsex(); 
@@ -297,10 +297,11 @@ function validateCard(){
 							</tr>
 							<br>
 							<tr>
-								<td><input type="submit" name="sub1" value="提交" id="sub1"
+								<td><div style="text-align:center;"><input type="submit" name="sub1" value="提交" id="sub1"
 									class="submit"  />
 									<input type="reset"
-									name="re" class="submit" /></td>
+									name="re" class="submit" />
+								</div></td>
 							</tr>
 							<tr>
 								<td><br /></td>

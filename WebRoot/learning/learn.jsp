@@ -37,7 +37,7 @@
 	</div>
 	<div class="md">
 		<div class="md_md">
-			<div class="md_md_hd"></div>
+			<%--<div class="md_md_hd"></div>--%>
 			<div class="md_md_ft">
 				<c:if test="${!empty param.page }">
 					<jsp:include page="${param.page }.jsp"></jsp:include>
@@ -45,6 +45,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="ft"></div>
+	<%--<div class="ft"></div>--%>
 </body>
 </html>

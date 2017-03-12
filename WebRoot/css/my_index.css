@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .top{
-	width:960px;
+	/*width:960px;*/
 	height:50px;
 	border-bottom:1px solid #662e00;
 	background-color:#ededed;
@@ -39,8 +39,8 @@
 }
 /* ====================================== */
 .big_div{
-	width:960px;
-	min-height:400px;
+	/*width:960px;*/
+	min-height:800px;
 	padding-top:10px;
 	border-bottom:0px;
 	background-color:#ededed;
@@ -52,7 +52,8 @@
 	color:#672d00;
 }
 .inner_left_div2{
-	width:550px;
+	/*width:550px;*/
+	width: 70%;
 	min-height:125px;
 	padding-left:8px;
 	border:0px;
@@ -61,11 +62,16 @@
 /* 	background-color:#CCF; */
 }
 .right_table{
-	width:500px;
-	/*border-top:1px #c6c6c6 solid;
-	border-left:1px #c6c6c6 solid;*/
-	border:0px #c6c6c6 solid;
-	text-align:center;
+	/*width:500px;*/
+	/*!*border-top:1px #c6c6c6 solid;*/
+	/*border-left:1px #c6c6c6 solid;*!*/
+	/*border:0px #c6c6c6 solid;*/
+	/*text-align:center;*/
+	width: 90%;
+	margin: 0 auto;
+	height: 350px;
+	border: 0px #c6c6c6 solid;
+	text-align: center;
 }
 .right_tr1{
 	background-color:#666;
@@ -112,12 +118,14 @@ a:visited{
 
 /* ======================================= */
 .inner_right_div2{
-	width: 287px;
+	/*width: 287px;*/
+	width: 25%;
 	min-height: 193px;
 	background-image:url(../images/my_index/back_11.jpg);
 	float:left;
-	margin-left: 40px;
+	/*margin-left: 40px;*/
 	margin-top: 50px;
+	background-size: 100%;
 }
 .text_help{
 	color:#FFF;

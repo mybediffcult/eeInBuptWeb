@@ -190,7 +190,7 @@ body {
 
 .logintable {
 	clear: right;
-	width: 398px;
+	width: 500px;
 	height: 115px;
 	text-align: center;
 	margin: 0 auto;
@@ -198,6 +198,15 @@ body {
 .logintable span{
 	float:left;
 	width:20%;
+	line-height: 45px;
+	margin: 10px 0;
+}
+#reg {
+	padding-bottom: 50px;
+}
+#reg span{
+	float: left;
+	width: 20%;
 	line-height: 45px;
 	margin: 10px 0;
 }
@@ -233,6 +242,7 @@ body {
     bottom: 0;
     width: 100%;
     line-height: 50px;
+	margin:0;
 }
 	.sec1 {
 	BORDER-RIGHT: gray 1px solid;
@@ -317,7 +327,6 @@ body {
 }
 .login_DL{
 	width:960px;
-	height:736px;
 	margin:0 auto;
 }
 .login_DC{

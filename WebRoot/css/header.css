@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .total_header{
-	width:1259px;
+	width:100%;
 	height:60px;
 /* 	background-color:#06F; */
 	 background-color: #2a2a2a;
@@ -20,6 +20,7 @@
 	color: #fff;
 	font-family:"Comic Sans MS", cursive;
 /* 	background-color:#FF0; */
+	font-size: 17px;
 }
 .little_link{
 	width:335px;

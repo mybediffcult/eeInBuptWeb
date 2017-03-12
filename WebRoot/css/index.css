@@ -11,17 +11,16 @@ body{ margin:0px auto;
      padding:0px;
 	 width:100%;
 	 min-height:100px;
+	background-color: #2a2a2a;
 }
 .hd_hd{ margin:0px;
         padding:0px;
 		height:60px;
-	    background-color:#000;
 }
-.hd_ft{ margin:0px;
+.hd_ft{ margin:0 auto;
         padding:0px;
 		width:1259px;
 		height:40px;
-		background-image:url(../images/bg-001.jpg);
 		background-repeat:repeat-x;
 }
 .hd_ft_lt{ margin:0px;
@@ -61,19 +60,17 @@ body{ margin:0px auto;
 }
 .md_md{ margin:0px auto;
       padding:0px;
-	  width:960px;
+	  width:1300px;
 	  background-color:#FFF;
 	  min-height:500px;
 }
 .md_md_hd{ margin:0px;
       padding:0px;
-	  width:960px;
 	  height:170px;
 	  background-image:url(../images/background.jpg);
 }
 .md_md_ft{ margin:0px;
       padding:0px;
-	  width:960px;
 	  min-height:200px;
 	  overflow:auto;
 }
